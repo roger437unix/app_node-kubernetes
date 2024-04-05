@@ -5,7 +5,7 @@ const IP = require('ip');
 
 app.get('/', (req, res) => {
     const ipAddress = IP.address();
-    res.send('<h1 style="text-align:center;color:#ffac56">'+ipAddress+'</h1>')
+    res.send('<h1 style="text-align:center;color:#329916">'+ipAddress+'</h1>')
 })
 
 app.listen(port, () => {
